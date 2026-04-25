@@ -29,12 +29,6 @@ Each project focuses on applying basic programming concepts in Python.
 
 ## Notes
 
-* Projects are written in simple and clear Python for learning purposes
-* Code is structured to show progression from basic to more advanced features
+* Projects are written for learning purposes
 
----
 
-## Author
-
-Your Name
-GitHub: https://github.com/your-username
