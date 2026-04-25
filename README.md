@@ -12,6 +12,7 @@ Each project focuses on applying basic programming concepts in Python.
 | Oracle Orb                 | A command-line fortune telling game that generates random responses based on user input. Refactored to use lists and built-in functions instead of long conditional statements. | while loop, list, random.choice(), input handling               | [View Project](https://github.com/Kazu010101/Python-Project/blob/main/The%20Oracle%20Orb.md)   |
 | Match Fiesta               | A word matching game where players match English and Spanish words. Expanded with scoring, timer, lives, and hint features.                                                     | functions, lists, nested loops, state management, random module | [View Project](https://github.com/Kazu010101/Python-Project/blob/main/Match%20Fiesta.md) |
 | First Step into Python Automation | A simple Python automation script that retrieves the current logged-in user on a Windows machine and prints a personalized message to the screen.                      | os module, getpass module, function, variables                                                                | [View Youtube Video](https://www.youtube.com/watch?v=t3PunaaDNOg)                                |
+| Exercise Basic Movements | A walk through a series of basic Python exercises.| variables, data types, indexing, math library, lists, tuple, sets, dictionary, type casting, loop, string manipulation| [View Youtube Video](https://youtu.be/ev6yevVFFBQ) |
 
 ---
 
