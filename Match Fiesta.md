@@ -19,7 +19,7 @@ created: 2026-04-25
 
 ## Overview
 
-Match Fiesta is an English-Spanish word matching game in Python by [Microsoft Visual Studio Code for Education](https://vscodeedu.com/courses/intro-to-python). Along the way, the original script needs to be upgraded with new in-game features:
+Match Fiesta is an English-Spanish word matching game in Python by [Microsoft Visual Studio Code for Education](https://vscodeedu.com/courses/intro-to-python). Along the way, the original script are upgraded with new in-game features:
 
 - Challenge 1: Expand the Vocabulary
 - Challenge 2: Add a Scoring System
