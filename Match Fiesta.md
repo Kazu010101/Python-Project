@@ -11,7 +11,7 @@ tags:
   - time
   - function-calls
   - boolean
-status: In Progress
+status: Completed
 topic: Python CLI Game
 environment: Python
 created: 2026-04-25
