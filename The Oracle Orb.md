@@ -13,7 +13,7 @@ created: 2026-04-24
 
 ## Overview
 
-The Oracle Orb is a command line game as part of Python Lesson by Microsoft Visual Studio Code for Education. (hyperlink this to the website)
+The Oracle Orb is a command line game as part of Python Lesson by [Microsoft Visual Studio Code for Education](https://vscodeedu.com/courses/intro-to-python). 
 The user asks a question and receives a random response.  
 The program repeats using a `while` loop until the user chooses to stop.
 
