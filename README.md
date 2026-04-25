@@ -1,7 +1,7 @@
 # Python Portfolio
 
 This repository contains my Python projects developed as part of my learning journey.
-Each project focuses on applying core programming concepts such as control flow, data structures, functions, and problem solving.
+Each project focuses on applying basic programming concepts in Python.
 
 ---
 
