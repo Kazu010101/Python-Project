@@ -23,7 +23,7 @@ Each project focuses on applying basic programming concepts in Python.
 * Lists and data handling
 * User input and validation
 * Game logic and state management
-* Code refactoring and optimization
+* Code refactoring and optimisation
 
 ---
 
