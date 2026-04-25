@@ -175,11 +175,14 @@ Expand the existing word-matching game by adding more English-Spanish word pairs
 
 Added 10 more English–Spanish pairs to improve gameplay variety at `def main()` block:
 
-![[Pasted image 20260425130217.png|697]]
+<img width="858" height="471" alt="Pasted image 20260425130217" src="https://github.com/user-attachments/assets/8af0b8c1-c832-40c5-aa7e-fa21fa00797d" />
+
 ### Step 2: Adjust Matrix Size
 
 Since there are 16 pairs after the addition of English-Spanish pairs, the `rows` and `cols` are adjusted to 4 x 4.
-![[Pasted image 20260425130631.png]]
+
+<img width="947" height="307" alt="Pasted image 20260425130631" src="https://github.com/user-attachments/assets/64ada9c3-d4ed-41e9-9822-c6acf84455fe" />
+
 
 ### Verify the Result of Challenge 1
 
@@ -188,7 +191,8 @@ Since there are 16 pairs after the addition of English-Spanish pairs, the `rows`
 - Matrix size match total elements -`rows * cols = len(word_list)`
 - More words increase difficulty and replay value
 
-![[Pasted image 20260425131415.png]]
+<img width="1332" height="657" alt="Pasted image 20260425131415" src="https://github.com/user-attachments/assets/07e840b8-eab1-4c33-9c27-bb80dfea130d" />
+
 
 ---
 ## Challenge 2:  Add a Scoring System
@@ -204,22 +208,26 @@ Adds a scoring system to the game, rewarding correct matches and penalising inco
 ### Step 1: Create a `score` Variable
 
 Create `score` = 0 inside the `main()` body
-![[Pasted image 20260425140849.png]]
+<img width="705" height="246" alt="Pasted image 20260425140849" src="https://github.com/user-attachments/assets/94486441-60b2-42a1-92f9-e080723c00db" />
+
 
 ### Step 2: Update the `score` 
 
 Pass the `score` variables inside the `match_words` function as a new parameter, and `return` the updated `score` value.  
 
-![[Pasted image 20260425141955.png]]
+<img width="1107" height="595" alt="Pasted image 20260425141955" src="https://github.com/user-attachments/assets/eca9c557-afc1-4a2b-a469-09ec31d8b3f2" />
+
 
 Inside the function's logic, add 10 points for each correct match and subtract 5 points for each incorrect match. Also, add a`print` statement for the `score` after user's feedback and update early `return`.  
  
-![[Pasted image 20260425142412.png]]
+<img width="807" height="708" alt="Pasted image 20260425142412" src="https://github.com/user-attachments/assets/f61b72f0-3c0e-41ba-93dc-34ad52482c39" />
+
 
 ### Step 3: Update `main()` loop
 
 Add `score` to the function call in `while` loop, and `print` formatted-strings (`f-string`) statement for the end message to display the final `score` output. 
-![[Pasted image 20260425142919.png]]
+<img width="920" height="599" alt="Pasted image 20260425142919" src="https://github.com/user-attachments/assets/dbf40b35-f190-478c-b5cb-15462a840b99" />
+
 
 ### Verify the Result of Challenge 2
 
@@ -227,9 +235,11 @@ Add `score` to the function call in `while` loop, and `print` formatted-strings 
 - The game now tracks performance using a scoring system on each correct and incorrect answer after each user's attempt
 - Displays a final score at the end
 
-![[Pasted image 20260425140311.png]]
+<img width="1095" height="847" alt="Pasted image 20260425140311" src="https://github.com/user-attachments/assets/fb134a98-16e6-485f-977d-fb2354583d8b" />
 
-![[Pasted image 20260425140510.png]]
+
+<img width="525" height="157" alt="Pasted image 20260425140510" src="https://github.com/user-attachments/assets/476b9f41-3777-4250-b23c-4c0d44de6656" />
+
 
 ---
 
@@ -247,42 +257,51 @@ Add a timer to the game, increasing the difficulty by limiting the amount of tim
 
 This module provides functions to track elapsed `time`.
 
-![[Pasted image 20260425153211.png]]
+<img width="658" height="192" alt="Pasted image 20260425153211" src="https://github.com/user-attachments/assets/501dddaf-4270-4a9f-abb0-f28c886e231b" />
+
 
 ### Step 2: Set a Time Limit
 
 Inside `main()`, set a new variable `time_limit = 60` seconds.
 
-![[Pasted image 20260425153417.png]]
+<img width="473" height="196" alt="Pasted image 20260425153417" src="https://github.com/user-attachments/assets/0c3d4287-1f90-40fd-a2d6-132990b933b8" />
+
 
 ### Step 3: Track Time
 
 Capture the `start time` before the game loop:
 
-![[Pasted image 20260425153741.png]]
+<img width="442" height="152" alt="Pasted image 20260425153741" src="https://github.com/user-attachments/assets/080283b3-6e60-43c4-be8f-05d0405c8dad" />
+
 
 Create a logic to check for `elapsed_time` inside the loop:
 
-![[Pasted image 20260425154536.png]]
+<img width="635" height="231" alt="Pasted image 20260425154536" src="https://github.com/user-attachments/assets/91775496-cdcd-4c65-b9fd-cc3ba620b556" />
+
 
 ### Step 4: Time's Up Message
 
 Inside `main()`, Add a counter to track how many `matches_count` were completed.
 
-![[Pasted image 20260425154840.png]]
+<img width="436" height="186" alt="Pasted image 20260425154840" src="https://github.com/user-attachments/assets/5971a244-dfb7-4b71-8ba4-10e1c2407114" />
+
 
 Update inside `match_words()` to add counter+1 when correct:
 
-![[Pasted image 20260425160848.png]]
+<img width="842" height="165" alt="Pasted image 20260425160848" src="https://github.com/user-attachments/assets/1933d8b2-3456-409f-82dc-7343545073d6" />
+
 
 Just like when updating `score` previously, since `matched_count` is also added into one of the `match_words` parameters, pass all `matched_count` variables and make sure all `return` have the same number of 4 values.
 
-![[Pasted image 20260425161327.png]]
-![[Pasted image 20260425161918.png]]
+<img width="942" height="797" alt="Pasted image 20260425161327" src="https://github.com/user-attachments/assets/4cefa6af-d1b7-4f82-a6d3-281444fa250e" />
+
+<img width="742" height="208" alt="Pasted image 20260425161918" src="https://github.com/user-attachments/assets/584385cb-c7f9-4467-8ad9-dcba12d053eb" />
+
 
 Inside the `loop`, add `matched_count` as an argument to call the `match_words` function. Also, `print` how many `matched_count` when the time is up. 
 
-![[Pasted image 20260425161619.png]]
+<img width="1221" height="397" alt="Pasted image 20260425161619" src="https://github.com/user-attachments/assets/cf6367e3-057e-4081-8e72-f1fbc151dff3" />
+
 
 ---
 
@@ -299,18 +318,20 @@ The game adds bonus points for completing the game before the time runs out by m
 	- Add the `score` with `bonus` 
 - Print the `bonus` score to the final end message
 
-![[Pasted image 20260425171439.png]]
+<img width="872" height="382" alt="Pasted image 20260425171439" src="https://github.com/user-attachments/assets/bcfb29ef-a872-4a48-9619-398044c36def" />
+
 
 ### Verify the Result of Challenge 3
 
 - Script runs without error.
 - The game now has a time limit.
 
-![[Pasted image 20260425160734.png]]
+<img width="595" height="210" alt="Pasted image 20260425160734" src="https://github.com/user-attachments/assets/578a3e93-ecb9-4efa-98e6-37d21e037d25" />
+
 
 - Bonus score is calculated into the final score if player can complete all word pairs before the time ends.
 
-![[Pasted image 20260425164259.png]]
+<img width="563" height="178" alt="Pasted image 20260425164259" src="https://github.com/user-attachments/assets/959faa6d-e14a-4481-a7b3-afd6865e1fd6" />
 
 ---
 
@@ -328,35 +349,42 @@ The lives system will introduce a new layer of difficulty, limiting the number o
 
 Inside `main()`:
 
-![[Pasted image 20260425173812.png]]
+<img width="433" height="218" alt="Pasted image 20260425173812" src="https://github.com/user-attachments/assets/3bdda151-fea7-4451-9e8a-b509858d5570" />
+
 
 ### Step 2: Update Function Parameters
 
 Pass `lives` into `match_words()` and make sure all `return` values are updated with `lives`. 
 
-![[Pasted image 20260425174343.png]]
-![[Pasted image 20260425174440.png]]
+<img width="877" height="596" alt="Pasted image 20260425174343" src="https://github.com/user-attachments/assets/34148950-237d-4a4a-94fb-21b5526cd212" />
+
+<img width="630" height="202" alt="Pasted image 20260425174440" src="https://github.com/user-attachments/assets/967b8bb8-5d9d-4332-bfc3-69ad2263d7c7" />
+
 
 ### Step 3: Decrease Lives of Incorrect Match
 
 Inside `match_words()` function, add `lives -= 1` inside the body of `else`:
-![[Pasted image 20260425174747.png]]
+<img width="577" height="130" alt="Pasted image 20260425174747" src="https://github.com/user-attachments/assets/cb533683-6961-4b39-97db-7b47b6561642" />
+
 
 ### Step 4: Display Remaining Lives
 
-![[Pasted image 20260425175054.png]]
+<img width="757" height="267" alt="Pasted image 20260425175054" src="https://github.com/user-attachments/assets/f9f874e7-e486-4882-8717-983067790a6d" />
+
 
 ### Step 5: End Games when Lives = 0
 
 Add a new `if` condition in the body of `match_words()` function after updating lives:
 
-![[Pasted image 20260425175602.png]]
+<img width="703" height="281" alt="Pasted image 20260425175602" src="https://github.com/user-attachments/assets/89fc03d6-c1ce-4cff-9b2f-8078dff990f3" />
+
 
 ### Step 6: Update Function Calls
 
 Inside the `while` loop body, update `match_words` function calls with `lives`. 
 
-![[Pasted image 20260425180110.png]]
+<img width="1343" height="262" alt="Pasted image 20260425180110" src="https://github.com/user-attachments/assets/b2fc0c1f-0ddf-42b3-b305-4e3215dadbbc" />
+
 
 ### Verify the Result of Challenge 4
 
@@ -364,11 +392,13 @@ Inside the `while` loop body, update `match_words` function calls with `lives`.
 - The game now has a failure condition.
 - When player makes a wrong answer, lives reduces by 1. 
 
-![[Pasted image 20260425180158.png]]
+<img width="991" height="285" alt="Pasted image 20260425180158" src="https://github.com/user-attachments/assets/d837cba5-fd2d-45d7-95ed-094e708b21d8" />
+
 
 - When player makes wrong answer three times, lives becomes 0 and the game is over.
 
-![[Pasted image 20260425180232.png]]
+<img width="991" height="207" alt="Pasted image 20260425180232" src="https://github.com/user-attachments/assets/96742492-8e9c-4583-8b14-d56431c0c0fa" />
+
 
 ---
 
@@ -387,19 +417,22 @@ This challenge focuses on creating a hint system that allows players to request 
 
 Inside `match_words()` function, update the string with `hint` keyword as an option.
 
-![[Pasted image 20260425202543.png]]
+<img width="1110" height="220" alt="Pasted image 20260425202543" src="https://github.com/user-attachments/assets/f9c47461-7af8-4abe-aaab-77ecc3b64c36" />
+
 
 ### Step 2: Detect `hint` Input
 
 Inside `match_words()` function, add an `if` condition before `user_input = user_input.split()`:
 
-![[Pasted image 20260425203346.png]]
+<img width="846" height="332" alt="Pasted image 20260425203346" src="https://github.com/user-attachments/assets/7d344316-81bd-4570-9d48-60f225555375" />
+
 
 ### Step 3: Deduct Points
 
 Inside the `if` condition body, input `score -= 10` and `print` explanation text to user.
 
-![[Pasted image 20260425203507.png]]
+<img width="846" height="332" alt="Pasted image 20260425203507" src="https://github.com/user-attachments/assets/09788a06-20a9-4a52-b374-427298385589" />
+
 
 ### Step 4: Reveal a Hint
 
@@ -410,7 +443,8 @@ Randomly select a pair from remaining `word_pairs` and `print` the selected `hin
 - `english_word, spanish_word = hint_pair`  --> Uses **tuple unpacking** to assign each value in the tuple to separate variables.
 - `print(f"...")`  --> Uses an **f-string** to format and display the hint with variable values inserted into the string.
 
-![[Pasted image 20260425204932.png]]
+<img width="791" height="362" alt="Pasted image 20260425204932" src="https://github.com/user-attachments/assets/b3ce80f4-9e2a-4d9e-9b19-4f5cc42c7244" />
+
 
 ### Step 5: Remove the Hint Pair
 
@@ -419,14 +453,16 @@ Randomly select a pair from remaining `word_pairs` and `print` the selected `hin
 - `word_pairs.remove(hint_pair)`  --> Calls the list method `.remove()` to delete the revealed pair from the list, preventing it from being matched again.
 - `matched_count += 1`  --> Increments the counter variable using an assignment operator.
 
-![[Pasted image 20260425205230.png]]
+<img width="1046" height="497" alt="Pasted image 20260425205230" src="https://github.com/user-attachments/assets/ed4a6091-9d2b-45fe-9503-9ad30ca5937e" />
+
 
 ### Step 6: Return and Continue Game
 
 - `print(f"...")`  --> Uses **formatted string literals (f-strings)** to display updated values of variables.
 - `return matrix1, matrix2, score, matched_count, lives`  --> Returns multiple values as a **tuple**, which will be unpacked in the calling function (`main()`).
 
-![[Pasted image 20260425205555.png]]
+<img width="1007" height="597" alt="Pasted image 20260425205555" src="https://github.com/user-attachments/assets/422ca27e-e9af-42a1-8e15-2045ff98cccb" />
+
 
 ### Verify the Result of Challenge 5
 
@@ -435,7 +471,8 @@ Randomly select a pair from remaining `word_pairs` and `print` the selected `hin
 - The selected hint pair, *book =* *libro*, is removed from the list.
 - The game continues as usual, prompting player to type the next word pair. 
 
-![[Pasted image 20260425205807.png]]
+<img width="1156" height="721" alt="Pasted image 20260425205807" src="https://github.com/user-attachments/assets/34e69c04-d64c-4c0b-8594-cd5b0f6577ce" />
+
 
 ---
 
