@@ -13,7 +13,6 @@ created: 2026-04-29
 status: complete
 language: Python
 library: ping3
-difficulty: beginner-intermediate
 ---
 
 # Host Ping Tool – Interactive Network Reachability Checker
