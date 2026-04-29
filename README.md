@@ -13,7 +13,7 @@ Each project focuses on applying basic programming concepts in Python.
 | Match Fiesta               | A word matching game where players match English and Spanish words. Expanded with scoring, timer, lives, and hint features.                                                     | functions, lists, nested loops, state management, random module | [View Project](https://github.com/Kazu010101/Python-Project/blob/main/Match%20Fiesta.md) |
 | First Step into Python Automation | A simple Python automation script that retrieves the current logged-in user on a Windows machine and prints a personalized message to the screen.                      | os module, getpass module, function, variables                                                                | [View Youtube Video](https://www.youtube.com/watch?v=t3PunaaDNOg)                                |
 | Exercise Basic Movements | A walk through a series of basic Python exercises.| variables, data types, indexing, math library, lists, tuple, sets, dictionary, type casting, loop, string manipulation| [View Youtube Video](https://youtu.be/ev6yevVFFBQ) |
-| Host Pinger | A Capstone Project on Python Network Automation| | [View Project](https://github.com/Kazu010101/Python-Project/blob/main/Project_Host_Ping_Tool.md)| 
+| Host Pinger | A Capstone Project on Python Network Automation| library import, list, while loop, index, error handling | [View Project](https://github.com/Kazu010101/Python-Project/blob/main/Project_Host_Ping_Tool.md)| 
 ---
 
 ## Skills Demonstrated
