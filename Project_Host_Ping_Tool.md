@@ -15,7 +15,7 @@ language: Python
 library: ping3
 ---
 
-# Host Ping Tool – Interactive Network Reachability Checker
+# Capstone Project: Host Pinger – Interactive Network Reachability Checker
 
 > **Type:** Capstone Project — Python Network Automation
 > **Library:** `ping3`
