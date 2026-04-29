@@ -207,7 +207,7 @@ The sentinel value pattern is a clean, Pythonic way to let users control when in
 
 ---
 
-### 4. ✅ Empty List Check with `if not`
+### 4. Empty List Check with `if not`
 **Lines 17–19**
 ```python
 if not hostnameList:
