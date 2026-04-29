@@ -37,7 +37,7 @@ library: ping3
 
 ## Scenario
 
-> [!example] **Capstone Scenario — SOC Analyst: Rapid Host Triage During an Incident**
+> **Capstone Scenario — SOC Analyst: Rapid Host Triage During an Incident**
 >
 > It's 2:00 AM. A security alert fires in the SIEM; a group of internal servers have been flagged for unusual outbound traffic. You need to immediately verify which of these hosts are **still reachable on the network** before escalating to the IR team.
 >
