@@ -156,7 +156,7 @@ else:
 pip install ping3
 ```
 
-> [!warning] **Permissions Note**
+> **Permissions Note**
 > On Linux/macOS, `ping3` may require elevated privileges to send ICMP packets.
 > Run with `sudo python3 script.py` if you get a permission error.
 > On Windows, run the terminal as Administrator.
@@ -175,7 +175,7 @@ ping3.EXCEPTIONS = True
 
 ---
 
-### 2. 📋 List Initialisation & `.append()`
+### 2. List Initialisation & `.append()`
 **Lines 10–14**
 ```python
 hostnameList = []
@@ -188,7 +188,7 @@ An empty list is created first, then items are added to it one at a time using `
 
 ---
 
-### 3. 🔁 `while` Loop with a Sentinel Value
+### 3. `while` Loop with a Sentinel Value
 **Lines 12–14 and Lines 22–23**
 ```python
 while hostName != '':
@@ -217,7 +217,7 @@ if not hostnameList:
 
 ---
 
-### 5. 🔢 `for` Loop with a Manual Counter
+### 5. `for` Loop with a Manual Counter
 **Lines 24–27**
 ```python
 count = 0
@@ -229,7 +229,7 @@ A `for` loop iterates over each item in the list, while a manual `count` variabl
 
 ---
 
-### 6. 🎯 List Indexing & Bounds Checking
+### 6. List Indexing & Bounds Checking
 **Lines 34–36**
 ```python
 selection = int(selection)
@@ -240,7 +240,7 @@ The user's input is converted to an integer and used as a **list index**. The bo
 
 ---
 
-### 7. 🛡️ Nested `try/except` Exception Handling
+### 7. Nested `try/except` Exception Handling
 **Lines 33–50**
 
 The script uses **two levels** of exception handling, one inside the other:
@@ -265,7 +265,7 @@ This layered approach means the program **never crashes from user error** — ev
 
 ---
 
-### 8. 🔤 String Conversion with `str()`
+### 8. String Conversion with `str()`
 **Lines 26, 40, 48**
 ```python
 print(str(count) + ". " + n)
