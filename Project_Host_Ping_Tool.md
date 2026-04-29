@@ -1,5 +1,5 @@
 ---
-title: "Host Ping Tool – Interactive Network Reachability Checker"
+title: "Host Pinger – Interactive Network Reachability Checker"
 tags:
   - python
   - networking
