@@ -171,7 +171,7 @@ pip install ping3
 import ping3
 ping3.EXCEPTIONS = True
 ```
-`ping3` is an external library installed via `pip`. Setting `ping3.EXCEPTIONS = True` switches the library from returning `None` on errors to raising proper Python exceptions — which is required for the `try/except` blocks later to work correctly. This shows understanding of how to configure a library's behaviour, not just import it.
+`ping3` is an external library installed via `pip`. Setting `ping3.EXCEPTIONS = True` switches the library from returning `None` on errors to raising proper Python exceptions — which is required for the `try/except` blocks later to work correctly. 
 
 ---
 
