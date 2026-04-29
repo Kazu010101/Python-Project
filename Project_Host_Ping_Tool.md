@@ -24,7 +24,7 @@ library: ping3
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [[#Scenario]]
 2. [[#How It Works]]
