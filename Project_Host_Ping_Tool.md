@@ -203,8 +203,6 @@ Two different `while` loop patterns are used:
 - A **condition-based loop** (`while hostName != ''`) that exits when the sentinel value (empty string) is detected
 - An **infinite loop** (`while True`) that exits via a `break` statement when the user presses ENTER
 
-The sentinel value pattern is a clean, Pythonic way to let users control when input collection stops.
-
 ---
 
 ### 4. Empty List Check with `if not`
