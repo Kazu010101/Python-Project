@@ -23,6 +23,7 @@ library: ping3
 > **SOC Relevance:** Host availability checking, network triage, asset reachability verification
 
 ---
+<img width="1276" height="742" alt="image" src="https://github.com/user-attachments/assets/fd563749-2884-4baa-892b-3156ca494b18" />
 
 ## Table of Contents
 
